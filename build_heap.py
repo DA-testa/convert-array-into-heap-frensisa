@@ -38,7 +38,7 @@ def main():
     elif input_type == 'F\r':
         # input from file
         input_file = input()
-        file = open(input_file, 'r')
+        file = open("tests/" + input_file, 'r')
         n = int(file.readline())
         data = list(map(int, file.readline().split()))
     else:
