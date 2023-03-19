@@ -62,6 +62,6 @@ def main():
         print(i, j)
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
 #haha
